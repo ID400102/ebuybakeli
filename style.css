@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color:#FFFFFF;
+    color: #333333;
+}
+                             /*CSS-DU-ACCUIEL*/
+
+/* HEADER */
+header {
+    background-color:#8B4513;
+    color: #333333;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav a {
+    color: #8B4513;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero {
+    background:#FFFFFF; 
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 42px;
+    color:#333333;
+    background:#FFFFFF ;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* PRODUITS */
+.products {
+    padding: 40px;
+}
+.products h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat( 5,1fr);
+    gap: 20px;   
+} 
+.product {
+    background:#FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;  
+}
+.product:hover{
+    transform: translateY(-5px);
+    transition:0.3s ease;
+}
+.product img {
+    width: 70%;
+    border-radius: 5px;
+     width: 100%;
+    transition: transform 0.5s ease; 
+}
+.div .conteneur{
+    font-size: 100px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    height: 100px;
+}
+.kari{
+       align-items: center;
+       display: flex;
+       justify-content: center;
+       word-spacing: 30px;
+       color: #8B4513;
+}
+.conteneur .fav{
+    align-items: center;
+    justify-content: center;
+}
+.product h3 {
+    margin: 15px 0 10px;
+}
+.product p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.product button {
+    padding: 10px 15px;
+    border: none;
+    background-color:#8B4513;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 5px;
+    transform: translateY(-5px)
+}
+
+                      /*CSS-DU-PANIER*/
+
+/* CONTENEUR */
+.container {
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+/* PANIER */
+.cart {
+    flex: 3;
+    background: #F9F9F9;
+    padding: 20px;
+}
+.cart h2 {
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 10px;
+}
+.cart-item {
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 1px solid #CCCCCC;
+}
+.cart-item img {
+    width: 120px;
+}
+.details {
+    flex: 1;
+    margin-left: 20px;
+}
+.seller {
+    color: #CCCCCC;
+    font-size: 19px;
+}
+.mini{
+    margin-top: 30px;
+    display: inline-flex ;
+    gap: 500px;
+}
+.sup{
+    color: #8B4513;
+}
+.actions button{
+    width: 30px;
+    height: 30px;
+    border: 2px solid #CCCCCC;
+    background:#8B4513;   
+}
+/* RÉSUME-DU-PANIER */
+.summary-box {
+    flex: 1;
+    background: #FFFFFF;
+    padding: 20px;
+    border: 1px solid #CCCCCC;
+    position: sticky;
+    top: 20px;
+}
+.summary-box h3 {
+    margin-bottom: 15px;
+}
+.line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.total {
+    font-weight: bold;
+}
+.order {
+    width: 100%;
+    padding: 12px;
+    background: #8B4513;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* PRODUITS SIMILAIRES */
+.similar-products {
+    width: 90%;
+    margin: 40px auto;
+}
+.similar-products h2 {
+    margin-bottom: 20px;
+}
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.product-card {
+    background: #F9F9F9;
+    padding: 15px;
+    border: 1px solid #CCCCCC;
+    text-align: center;
+}
+.product-card:hover{
+    transform: translateY(-5px);
+    transition:0.4s ease;
+}
+.product-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: contain;
+}
+.product-card h4 {
+    font-size: 14px;
+    margin: 10px 0;
+}
+.product-card .price {
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.product-card button {
+    width: 100%;
+    padding: 8px;
+    background: #8B4513;
+    color:#FFFFFF; 
+    border: none;
+    cursor: pointer;
+} 
+.Récents-products{
+    width: 90%;
+    margin: 40px auto;
+}
+ 
