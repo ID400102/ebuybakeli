@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des utilisateurs</title>
+</head>
+
+<body>
+    <main>
+        <section class="product-management">
+            <h2>Produits en attente de validation</h2>
+            <table border="2">
+                <thead>
+                    <tr>
+                        <th>Numéro</th>
+                        <th>Nom du Produit</th>
+                        <th>Vendeur</th>
+                        <th>Catégorie</th>
+                        <th>Prix</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="pending">
+                        <td>1</td>
+                        <td>Chemise de Sport</td>
+                        <td>Coumba Diagne</td>
+                        <td>Sport</td>
+                        <td>1500f</td>
+                        <td>En attente</td>
+                        <td>
+                            <button class="approve">Accepter</button>
+                            <button class="reject">Rejeter</button>
+                            <button class="delete">Supprimer</button>
+                        </td>
+                    </tr>
+                    <tr class="approved">
+                        <td>2</td>
+                        <td>Télévision</td>
+                        <td>Alassane Diallo</td>
+                        <td>Électronique</td>
+                        <td>250000f</td>
+                        <td>Validé</td>
+                        <td>
+                            <button class="approve">Accepter</button>
+                            <button class="reject">Rejeter</button>
+                            <button class="delete">Supprimer</button>
+                        </td>
+                    </tr>
+                    <tr class="rejected">
+                        <td>3</td>
+                        <td>Montre de Soirée élégante</td>
+                        <td>Jean Claude Diatta</td>
+                        <td>Accessoires</td>
+                        <td>20000f</td>
+                        <td>Rejeté</td>
+                        <td>
+                            <button class="approve">Accepter</button>
+                            <button class="reject">Rejeter</button>
+                            <button class="delete">Supprimer</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+
+</html>
