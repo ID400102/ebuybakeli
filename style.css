@@ -9,7 +9,7 @@ body {
     background-color:#FFFFFF;
     color: #333333;
 }
-                             /*CSS-DU-ACCUIEL*/
+/*CSS-DU-ACCUIEL*/
 
 /* HEADER */
 header {
@@ -19,7 +19,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 header h1 {
@@ -49,10 +48,25 @@ nav a {
     padding: 20px;
     border-radius: 5px;
 }
-
-/* PRODUITS */
+  
+   /* PRODUITS */
 .products {
-    padding: 40px;
+    padding: 40px; 
+}
+@media (min-width: 120px) and(max-width:480px) {
+    .products{
+        width: 100%;
+    }
+}
+@media (min-width: 768px){
+    .products{
+       width: 100%;
+    }
+}
+@media (min-width: 1034px){
+    .products{ 
+    width: 100%;   
+    }    
 }
 .products h2 {
     text-align: center;
@@ -114,8 +128,7 @@ nav a {
     border-radius: 5px;
     transform: translateY(-5px)
 }
-
-                      /*CSS-DU-PANIER*/
+ /*CSS-DU-PANIER*/
 
 /* CONTENEUR */
 .container {
@@ -124,9 +137,23 @@ nav a {
     display: flex;
     gap: 30px;
     align-items: flex-start;
+    }
+/*  PANIER */
+@media (min-width: 120px) and(max-width:480px) {
+    .partout{
+        width: 100%;
+    }
 }
-
-/* PANIER */
+@media (min-width: 768px){
+    .partout{
+       width: 100%;
+    }
+}
+@media (min-width: 1034px){
+    .partout{ 
+    width: 100%;   
+    }    
+}
 .cart {
     flex: 3;
     background: #F9F9F9;
@@ -244,4 +271,97 @@ nav a {
     width: 90%;
     margin: 40px auto;
 }
- 
+/*CSS-du-commande*/
+.tous{
+    margin-left: 300px;
+    width: 600px;
+    height: 430px;
+   box-shadow:40px;
+    margin-top: 30px; 
+   background-color: #8B4513;
+}
+.principale {
+    background: #F9F9F9;
+    margin: 10px;
+}
+.cart h2 {
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 10px;
+}
+.cart-ideu {
+    display: flex;
+    margin: 10px;
+    border-bottom: 1px solid #CCCCCC;
+}
+.cart-ideu img {
+    width: 120px;
+}
+.descrip {
+    flex: 1;
+    margin-left: 20px;
+}
+.seller {
+    color:black;
+    font-size: 19px;
+}
+.btn{
+    margin-left: 350px;
+    font-size: 13px;
+}
+/* CSS Détails*/
+.centre{
+    margin-left: 300px;
+    width: 700px;
+    height: 400px;
+    box-shadow: #8B4513;
+    margin-top: 30px;
+    background-color:  #8B4513;
+}
+.détails {
+    flex: 3;
+    padding: 20px;
+}
+.cart h2 {
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 10px;
+}
+.afy {
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 1px solid #CCCCCC;   
+}
+.afy img {
+    width: 120px;
+    padding: 5px;
+}
+.asey {
+    padding: 5px;
+    display: inline-flex;
+    gap: 40px;
+}
+.prix{
+    margin-top: 25px;
+    margin-left: 24px;
+}
+.caab{
+    margin-top: 60px;
+    color: #8B4513;
+    font-weight:40px; 
+}
+.rm{
+    display: inline-flex;
+    gap: 450px;
+}
+.boy{
+    margin-left: 25px;
+}
+.yonou{
+    background-color:  #8B4513;
+}
+.ndam{
+    padding: 5px;
+}
+.ibeu{
+    font-size: 20px;
+    margin-right:35px;
+}
