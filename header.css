@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(230, 225, 219);
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+.titre{
+    font-size: 30px;
+    font-weight: 30px;
+}
+.seach-bar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgb(163, 161, 157);
+    border-radius: 25px;
+    padding: 6px 10px;
+    
+    
+}
+.seach-bar input{
+    width: 350px;
+    border: none;
+    font-size: 18px; 
+    background-color: rgb(224, 217, 205); 
+}
+.btn{
+    border: none;
+    cursor: pointer;
+}
+/* .profile{
+    display: flex;
+    align-items: center;
+    gap: 5px ;
+    position: relative;
+}
+.profile ul li{
+    list-style: none; */
+
+
+.icones{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 18px;
+}
+.choix select{
+    border: none;
+     font-size: 15px;
+     font-weight: 18px;
+     background-color: rgb(233, 231, 227);
+}
+
+
