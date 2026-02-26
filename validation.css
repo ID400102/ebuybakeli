@@ -1,0 +1,93 @@
+/* Style global */
+body {
+    font-family:'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
+
+/* En-tête */
+.entete {
+    background-color: #ff6600;
+    color: white;
+    padding: 16px;
+    text-align: center;
+}
+
+/* Contenu principal */
+.contenu {
+    max-width: 900px;
+    margin: auto;
+    padding: 16px;
+}
+
+/* Bloc générique */
+.bloc {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    margin-bottom:16px;
+    padding: 16px;
+    border-radius:8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.bloc1,.bloc2 {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    margin-bottom:16px;
+    padding: 16px;
+    border-radius:8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    gap: 10px;
+}
+
+/* Articles */
+.article {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+/* Bloc total */
+.total {
+    font-weight: bold;
+}
+
+/* Boutons */
+.btn-confirmer,.btn-appliquer {
+    position: relative;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 50%;
+    left: 25%;
+}
+
+.btn-confirmer{
+    position: relative;
+    justify-content: center;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+.promo{
+    position: relative;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 50%;
+    left: 24%;
+}
