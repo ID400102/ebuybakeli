@@ -1,0 +1,15 @@
+.ajout {
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    display: block;
+    margin-left: 500px;
+    margin-top: 90px;
+    background-color: #c09c82;
+}
+
+.ajout0 {
+    margin-left: 30px;
+    display: block;
+    margin-top: 30px;
+}

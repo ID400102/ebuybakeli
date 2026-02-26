@@ -1,0 +1,41 @@
+.vendeur0 {
+    position: fixed;
+    display: block;
+    height: 680px;
+    width: 300px;
+    background-color: #c09c82;
+    flex-direction: column;
+}
+
+.vendeur1 {
+    display: block;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.vendeur2 {
+    font-size: 25px;
+    display: flex;
+    gap: 50px;
+}
+
+.gestion0 {
+    display: block;
+    text-align: center;
+}
+
+.gestion1 {
+    display: block;
+    text-align: center;
+}
+
+.produit {
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+    gap: 10px;
+    flex-direction: row;
+}
