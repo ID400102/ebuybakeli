@@ -56,7 +56,7 @@ Elle illustre les principales interfaces et parcours utilisateurs (clients, vend
 
 ## 🤝 Contributeurs
 - DAOURE DIOUF
-- NDEYE FATOU NDIAYE
+- NDEYE FATOU MBAYE
 - ABDOU KARIM NDIAYE
 - MARYAM BALDE
 - IBRAHIMA DIALLO
